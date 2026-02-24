@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="fr"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <title>dyby.hack</title> 
+  <style>
+    body {
+      background-color: black ;
+      color: #2c2c2c;
+    }
+    
+    a {
+      color: #2c2c2c;
+    }
+  button {
+    color: #2c2c2c ;
+  }
+   p {
+      color: #2c2c2c;
+    }
+    
+   h3 {
+      color: #2c2c2c;
+      front-size: 32px;
+    }
+    
+  h2  {
+      color: #2c2c2c;
+      front-size: 32px;
+    } 
+    
+    h4 {
+      color: #2c2c2c;
+      front-size: 32px;
+    } 
+    
+   h1 {
+     color: #2c2c2c;
+     front-size: 32px;
+   }
+  </style> 
+ </head> 
+ <body> 
+  <script>
+    
+    
+    function parler() {
+      const msg = new SpeechSynthesisUtterance("dyby hackeur, ceci est ma première page officiel, le début d'un hackeur black hat");
+      msg.lang = "fr-FR"; // langue française
+      msg.rate = 1;       // vitesse (1 = normal)
+      msg.pitch = 1;      // tonalité (1 = normal)
+      window.speechSynthesis.speak(msg);
+    }
+
+  </script> 
+  <h1><del>DYBY HACKER</del> </h1> 
+  <hr> 
+  <p><mark>mon seul</mark> <em>but est de</em> <i>devenir</i> <b>un hacker</b> et ce rêve sera réalité inchallah</p> 
+  <hr> 
+  <h2>ma passion du domaine est le pentesting</h2> 
+  <p>je serai un <mark>pro</mark> en <b>pentest...</b></p> 
+  <hr> 
+  <h3><u>HACKER</u> c'est facile</h3> 
+  <p> soyons juste focus sur l'objectif <br> ne te neglige pas tu est un pro. <br> seule les debutan ont peur de ce lancer <br> la peur est pas un fenomen c'est un truc normal mais a géré </p> 
+  <hr> 
+  <h4>liste des types de hacker</h4> 
+  <hr> 
+  <ul> 
+   <li><b>hacker black</b></li> 
+   <ul> 
+    <li>malveillant</li> 
+   </ul> 
+   <li><b>hacker white</b></li> 
+   <ul> 
+    <li>agent cybersécurité</li> 
+   </ul> 
+   <li><b>hacker grey</b></li> 
+   <ul> 
+    <li>entre les deux</li> 
+   </ul> 
+  </ul> 
+  <p><a href="https://www.google.com">pour plus de détail cliqué ici</a></p> 
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2LfdRvCIdTQ2qlrWqnlAN6N6bkkRgvZN1YA&amp;s"> 
+  <br> <a href="test.html">voir ma page css</a> 
+  <p>Clique sur le bouton pour entendre un message.</p> <button onclick="parler()">Lire le message</button> 
+ </body>
+</html>
